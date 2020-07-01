@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :git => 'https://github.com/BradLarson/GPUImage3', :commit => '222868e1ba4137a9934b2135635783ef7083eb4d' }
 
-  s.source_files = 'framework/Source/**/*.{swift,metal}'
+  s.source_files = 'framework/Source/**/*.{swift,metal,h}'
   s.private_header_files = 'framework/Source/**/*.h'
   s.exclude_files = [ 'framework/Source/**/WhiteBalance.*' ]
   s.requires_arc = true
